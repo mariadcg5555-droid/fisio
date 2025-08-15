@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto para Fisioterapia Online - FisioOnline</title>
+    <meta name="description" content="Contáctanos para resolver tus dudas sobre fisioterapia online, agendar citas o cualquier consulta. Estamos aquí para ayudarte a distancia.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos específicos para Contacto (opcional, podrías ponerlos en estilos.css) */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: calc(100% - 20px); /* Ajusta para padding */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        .contact-form button {
+            background-color: var(--primary-color);
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .contact-info p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="fisio-html.html"><img src="logo.jpeg" alt="FisioOnline Logo"></a>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="fisio-html.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios Online</a></li>
+                    <li><a href="nosotros.html">Sobre Mí</a></li>
+                    <li><a href="faq.html">FAQ Online</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="reservar.html" class="btn-cta">Reservar Consulta Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contacto-section" class="section-padding fade-in">
+            <div class="container">
+                <h2>Contáctanos para Tu Fisioterapia Online</h2>
+                <p class="text-center">¿Tienes alguna pregunta, duda sobre las consultas online o necesitas más información? No dudes en escribirnos. Estamos aquí para ayudarte a distancia.</p>
+
+                <div class="contact-form slide-up">
+                    <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="email">Tu Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" value="Consulta sobre Fisioterapia Online" required>
+
+                        <label for="mensaje">Tu Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta, si tienes dudas sobre la modalidad online, o si necesitas ayuda para reservar..." required></textarea>
+
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <div class="contact-info fade-in">
+                    <h3>Otras Formas de Contacto para Fisioterapia Online</h3>
+                    <p><strong>Email:</strong> <a href="mailto:info@fisioonline.com">info@fisioonline.com</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5917XXXXXXXX" target="_blank">+591 7XXXXXXXX</a> (Envía un mensaje para consultas rápidas o soporte en reservas online)</p>
+                    <p><strong>Horario de Atención Online:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM (Hora de Bolivia)</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/tupagina" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="https://instagram.com/tucuenta" target="_blank"><img src="instagran.jpeg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FisioOnline</h3>
+                    <p>Fisioterapia de calidad, accesible desde cualquier lugar del mundo.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="servicios.html">Servicios Online</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes Online</a></li>
+                        <li><a href="privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <p>Email: info@fisioonline.com</p>
+                    <p>WhatsApp: +591 7XXXXXXXX (Bolivia)</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/tupagina" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="https://instagram.com/tucuenta" target="_blank"><img src="instagran.jpeg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FisioOnline. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

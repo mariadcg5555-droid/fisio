@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes sobre Fisioterapia Online - FisioOnline</title>
+    <meta name="description" content="Encuentra respuestas a tus preguntas sobre cómo funcionan las consultas de fisioterapia online, requisitos técnicos, efectividad y proceso de reserva.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Estilos específicos para FAQ (opcional, podrías ponerlos en estilos.css) */
+        .faq-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .faq-item h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-item h3 .toggle-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+        .faq-item.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+        .faq-item .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding-top: 0;
+        }
+        .faq-item.active .answer {
+            max-height: 500px; /* Ajusta según el contenido máximo esperado para las nuevas preguntas */
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo.jpeg" alt="FisioOnline Logo"></a>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="fisio-html.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios Online</a></li>
+                    <li><a href="nosotros.html">Sobre Mí</a></li>
+                    <li><a href="faq.html">FAQ Online</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="reservar.html" class="btn-cta">Reservar Consulta Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="faq-section" class="section-padding fade-in">
+            <div class="container">
+                <h2>Preguntas Frecuentes sobre Consultas de Fisioterapia Online</h2>
+                <p class="text-center">Aquí respondemos a las dudas más comunes que nuestros pacientes tienen sobre el proceso de las consultas de fisioterapia a distancia.</p>
+
+                <div class="faq-list">
+                    <div class="faq-item slide-up">
+                        <h3>¿Cómo funcionan las consultas de fisioterapia online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Nuestras consultas online se realizan a través de **videollamada en plataformas seguras** (Zoom, Google Meet, etc.). Durante la sesión, te haremos preguntas detalladas sobre tu historial y síntomas, realizaremos una **evaluación funcional virtual** (observando tus movimientos a través de la cámara) y te guiaremos en la realización de pruebas físicas. Luego, te explicaremos tu condición y te proporcionaremos un plan de tratamiento personalizado con ejercicios, consejos y pautas que podrás seguir desde casa.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Qué necesito para una consulta de fisioterapia online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Necesitarás una **conexión a internet estable**, un dispositivo con cámara y micrófono (computadora, tablet o smartphone) y un espacio tranquilo e iluminado donde puedas moverte libremente. Es útil tener ropa cómoda que permita la visualización de tus movimientos y, si es posible, algunos objetos comunes en casa que puedan servir para ejercicios (una silla, una toalla, etc.).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Es tan efectiva la fisioterapia online como la presencial?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Para muchas condiciones musculoesqueléticas y para la rehabilitación basada en ejercicios, la fisioterapia online es **altamente efectiva y ha demostrado excelentes resultados**. La clave está en una evaluación minuciosa, la capacidad del fisioterapeuta para guiarte verbal y visualmente, y tu compromiso con el plan de tratamiento. Si tu caso requiere manipulación manual directa, te lo haremos saber y te recomendaremos una evaluación presencial.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Qué tipo de condiciones se pueden tratar con fisioterapia online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>La tele-fisioterapia es muy eficaz para una amplia gama de condiciones, incluyendo: **dolor de espalda y cuello, ciática, tendinitis, esguinces, dolor de hombro o rodilla, rehabilitación post-quirúrgica (una vez permitida la movilización), manejo del dolor crónico, asesoramiento postural, y programas de ejercicio terapéutico.** Si tienes dudas sobre tu condición, no dudes en contactarnos para una evaluación previa.</p>
+                        </div>
+                    </div>
+
+                     <div class="faq-item slide-up">
+                        <h3>¿Cómo se realiza el pago de las consultas online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Puedes pagar tus consultas de forma segura en dólares estadounidenses a través de nuestra **plataforma de reservas integrada (Calendly), que acepta pagos con tarjetas de crédito/débito (Visa, Mastercard, American Express) y PayPal**. Una vez que elijas tu consulta y agendes la hora, serás guiado al proceso de pago. Todos los pagos son procesados a través de plataformas seguras y encriptadas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Qué ocurre si necesito cancelar o reprogramar mi cita online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Puedes cancelar o reprogramar tu cita con al menos **24 horas de antelación** sin costo alguno. Encontrarás las instrucciones para hacerlo en el correo de confirmación de tu reserva. Las cancelaciones con menos de 24 horas de antelación o la inasistencia a la cita podrían no ser reembolsables, ya que ese tiempo estaba reservado exclusivamente para ti.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Es necesario enviar informes médicos o estudios previos para la consulta online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Sí, es **altamente recomendable**. Si tienes informes médicos, resultados de radiografías, resonancias magnéticas u otros estudios relevantes (ej. ecografías), por favor envíalos con antelación a tu cita para que podamos revisarlos. Esto nos ayuda a tener una imagen completa de tu condición y a brindarte una atención más precisa durante la sesión virtual.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item slide-up">
+                        <h3>¿Cómo puedo asegurar mi privacidad y la seguridad de mis datos en una consulta online?<span class="toggle-icon">&#9660;</span></h3>
+                        <div class="answer">
+                            <p>Utilizamos **plataformas de videollamada y pago encriptadas y seguras** que cumplen con los estándares de privacidad de datos. Toda la información que compartas durante la consulta se maneja con la **máxima confidencialidad y ética profesional**, siguiendo las normativas de protección de datos. Puedes consultar nuestra Política de Privacidad para más detalles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-40">
+                    <p>¿No encontraste la respuesta a tu pregunta? ¡No dudes en <a href="contacto.html">contáctarnos</a> directamente!</p>
+                    <a href="reservar.html" class="btn btn-primary btn-large">Agenda Tu Consulta Online Ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FisioOnline</h3>
+                    <p>Fisioterapia de calidad, accesible desde cualquier lugar del mundo.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="servicios.html">Servicios Online</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes Online</a></li>
+                        <li><a href="privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <p>Email: info@fisioonline.com</p>
+                    <p>WhatsApp: +591 7XXXXXXXX (Bolivia)</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/tupagina" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="https://instagram.com/tucuenta" target="_blank"><img src="instagran.jpeg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FisioOnline. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
